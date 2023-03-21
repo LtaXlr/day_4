@@ -1,0 +1,8 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="tr.gov.nvi.tckimlik.WS.KPSPublicSoap"><rhs name\="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/></lhs><lhs name\="java.rmi.Remote"><rhs name\="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/></lhs><lhs name\="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"><rhs name\="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/></lhs><lhs name\="DataAccess.Abstract.IDatabaseService"><rhs name\="Business.Concrete.StarBacksManager"/><rhs name\="Business.Concrete.NeroManager"/></lhs><lhs name\="DataAccess.Concrete.BaseDatabaseManager"><rhs name\="Business.Concrete.StarBacksManager"/><rhs name\="Business.Concrete.NeroManager"/></lhs><lhs name\="Business.Abstract.IMernisDataAdapterService"><rhs name\="Business.Concrete.MernisDataAdapter"/><rhs name\="Business.Concrete.DataAdaptor"/></lhs></history>
+content_assist_number_of_computers=17
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true
