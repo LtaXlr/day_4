@@ -1,0 +1,8 @@
+package Business.Concrete;
+
+import DataAccess.Concrete.BaseDatabaseManager;
+
+public class StarBacksManager extends BaseDatabaseManager{
+	@Override
+	
+}

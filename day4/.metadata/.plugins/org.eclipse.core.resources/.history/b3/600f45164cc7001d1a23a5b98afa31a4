@@ -1,0 +1,11 @@
+import Business.Concrete.StarBacksManager;
+import DataAccess.Concrete.BaseDatabaseManager;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer("2412","macit","sarıdağ",2020);
+		BaseDatabaseManager baseDatabaseManager = new StarBacksManager(customer);
+	}
+
+}

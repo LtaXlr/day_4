@@ -1,0 +1,7 @@
+package DataAccess.Concrete;
+
+import DataAccess.Abstract.IDatabaseService;
+
+public class BaseDatabaseManager implements IDatabaseService{
+	
+}

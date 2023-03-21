@@ -1,0 +1,10 @@
+import Entities.Concrete.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer("1","macit","sarıdağ",2020);
+		
+	}
+
+}

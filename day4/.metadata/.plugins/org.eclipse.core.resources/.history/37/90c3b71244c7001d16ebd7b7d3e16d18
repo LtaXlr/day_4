@@ -1,0 +1,8 @@
+package Entities.Concrete;
+
+public class Customer {
+	private String countryId;
+	private String firstName;
+	private String lastName;
+	private  countryId;
+}

@@ -1,0 +1,15 @@
+package Business.Concrete;
+
+import Business.Abstract.IMernisDataAdapterService;
+import Entities.Concrete.Customer;
+
+public class MernisDataAdapter implements IMernisDataAdapterService{
+	private IMernisDataAdapterService MernisDataAdapterService;
+	public MernisDataAdapter(IMernisDataAdapterService MernisDataAdapterService) {
+		this.MernisDataAdapterService = MernisDataAdapterService;
+	}
+	@Override
+	public boolean adap(Customer customer) {
+		return true;
+	}
+}

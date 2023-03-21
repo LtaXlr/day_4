@@ -1,0 +1,13 @@
+package Business.Concrete;
+
+import DataAccess.Concrete.BaseDatabaseManager;
+import Entities.Concrete.Customer;
+
+public class StarBacksManager extends BaseDatabaseManager{
+	
+	@Override
+	public void save(Customer customer) {
+		super.save(customer);
+		
+	}
+}

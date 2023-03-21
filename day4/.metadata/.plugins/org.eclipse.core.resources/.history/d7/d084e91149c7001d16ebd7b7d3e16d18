@@ -1,0 +1,13 @@
+package Business.Concrete;
+
+import Business.Abstract.IMernisDataAdapterService;
+import Entities.Concrete.Customer;
+import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
+
+public class MernisDataAdapter implements IMernisDataAdapterService{
+	@Override
+	public boolean adap(Customer customer) {
+		KPSPublicSoapProxy kpsPublicSoapProxy = new KPSPublicSoapProxy();
+		return kpsPublicSoapProxy.TCKimlikNoDogrula(Long.parseLong(customer.getCountryId()), customer.getFirstName(), customer.getLastName(), customer.getDateOfBirth());
+	}
+}

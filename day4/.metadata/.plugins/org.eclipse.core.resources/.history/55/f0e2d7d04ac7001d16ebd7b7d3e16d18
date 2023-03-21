@@ -1,0 +1,14 @@
+package Business.Concrete;
+
+import Business.Abstract.IMernisDataAdapterService;
+import DataAccess.Concrete.BaseDatabaseManager;
+import Entities.Concrete.Customer;
+
+public class StarBacksManager extends BaseDatabaseManager{
+	private IMernisDataAdapterService dataAdapterService;
+	@Override
+	public void save(Customer customer) {
+		super.save(customer);
+		
+	}
+}

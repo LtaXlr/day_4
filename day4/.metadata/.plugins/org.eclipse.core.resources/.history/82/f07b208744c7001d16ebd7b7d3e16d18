@@ -1,0 +1,5 @@
+package DataAccess.Concrete;
+
+public abstract class BaseDatabaseManager implements {
+
+}

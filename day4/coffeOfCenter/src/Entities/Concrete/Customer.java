@@ -1,0 +1,38 @@
+package Entities.Concrete;
+
+public class Customer {
+	private String countryId;
+	private String firstName;
+	private String lastName;
+	private int dateOfBirth;
+	public String getCountryId() {
+		return countryId;
+	}
+	public void setCountryId(String countryId) {
+		this.countryId = countryId;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public int getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(int dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+	public Customer(String countryId, String firstName, String lastName, int dateOfBirth) {
+		this.countryId = countryId;
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.dateOfBirth = dateOfBirth;
+	}
+}

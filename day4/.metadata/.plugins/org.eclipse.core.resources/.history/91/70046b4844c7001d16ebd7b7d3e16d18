@@ -1,0 +1,5 @@
+package DataAccess.Abstract;
+
+public interface IDatabaseService {
+
+}

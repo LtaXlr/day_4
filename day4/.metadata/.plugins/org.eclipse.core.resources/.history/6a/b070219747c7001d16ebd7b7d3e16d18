@@ -1,0 +1,5 @@
+package Business.Abstract;
+
+public interface IMernisDataAdapterService {
+	
+}

@@ -1,0 +1,14 @@
+import Business.Concrete.MernisDataAdapter;
+import Business.Concrete.StarBacksManager;
+import DataAccess.Concrete.BaseDatabaseManager;
+import Entities.Concrete.Customer;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Customer customer = new Customer("1","Macit","Sarıdağ",2020);
+		BaseDatabaseManager databaseManager = new StarBacksManager(new MernisDataAdapter());
+		databaseManager.save(customer);
+	}
+
+}

@@ -1,0 +1,5 @@
+package Entities.Concrete;
+
+public class Customer {
+	private String 
+}

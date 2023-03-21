@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.xml.crypto.Data"/>
+    <fullyQualifiedTypeName name="DataAccess.Abstract.IDatabaseService"/>
+    <fullyQualifiedTypeName name="tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="Business.Abstract.IMernisDataAdapterService"/>
+    <fullyQualifiedTypeName name="Entities.Concrete.Customer"/>
+    <fullyQualifiedTypeName name="DataAccess.Concrete.BaseDatabaseManager"/>
+    <fullyQualifiedTypeName name="Business.Concrete.StarBacksManager"/>
+    <fullyQualifiedTypeName name="Business.Concrete.MernisDataAdapter"/>
+    <fullyQualifiedTypeName name="Business.Concrete.NeroManager"/>
+</qualifiedTypeNameHistroy>
